@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">家聊</string>
+    <string name="AuthorDesc">Produced by WK.Luo</string>
+    <string name="app_fileprovider_authorities">com.lwk.familycontact.fileprovider</string>
+
+    <!--提示汇总-->
+    <string name="error_unknow">数据异常</string>
+    <string name="error_regist_fail">注册失败，请稍后重试</string>
+    <string name="error_hx_server_unknow_error">连接服务器异常，请检查网络设置</string>
+    <string name="warning_phone_can_not_empty">手机号不能为空</string>
+    <string name="warning_pwd_can_not_empty">密码不能为空</string>
+    <string name="warning_phone_error">请输入规范的手机号码</string>
+    <string name="warning_user_not_exist">该手机号尚未注册，请先注册！</string>
+    <string name="warning_pwd_not_correct">密码错误</string>
+    <string name="warning_user_already_exist">该手机号已注册，请直接登录</string>
+    <string name="warning_user_be_removed">您的账号已被移除出服务器</string>
+    <string name="warning_network_disconnect">网络连接不可用</string>
+    <string name="warning_permission_contact_denied">无法获取通讯录权限</string>
+    <string name="warning_permission_callphone_denied">无法获取拨打电话权限</string>
+    <string name="warning_dial_phone_empty">请输入号码</string>
+    <string name="warning_add_friend_empty_phone">对方手机号不能为空，请输入手机号或者点击页面右上角扫描对方二维码</string>
+    <string name="warning_add_friend_error_phone">请输入规范的手机号码</string>
+    <string name="error_play_voice_message">语音消息播放失败</string>
+    <string name="warning_no_more_message_history">没有更多聊天记录</string>
+    <string name="warning_voice_play_in_call">当前为听筒播放模式</string>
+    <string name="warning_permission_record_audio_denied">无法获取应用的录音权限，将导致无法正常发送语音消息和拨打语音通话</string>
+    <string name="error_userbean_null">用户资料为空，无法执行操作</string>
+    <string name="error_version_data_unavailable">无法获取更新信息</string>
+    <string name="error_lastest_apk_path_unavailable">新版本下载路径异常</string>
+    <string name="toast_apk_downloading">后台开始下载新版本apk</string>
+
+    <!--环信相关-->
+    <string name="dialog_user_relogin_title">账号在其他设备登录</string>
+    <string name="dialog_user_relogin_content">该账号已在其他手机上登录，如非本人操作请尽快修改密码</string>
+
+    <!--通用-->
+    <string name="ed_hint_phone_input">请输入手机号</string>
+    <string name="ed_hint_pwd_input">请输入密码</string>
+    <string name="dialog_confirm">我知道了</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_permission_title">权限申明</string>
+    <string name="dialog_permission_nerver_ask_confirm">去设置</string>
+    <string name="hint_save_success">保存成功</string>
+    <string name="send_request_success">发送请求成功</string>
+    <string name="reject">拒绝</string>
+    <string name="agree">同意</string>
+    <string name="hasRejected">已拒绝</string>
+    <string name="hasAgreed">已同意</string>
+    <string name="opHasAgreed">对方已同意</string>
+    <string name="opHasRejected">对方已拒绝</string>
+
+    <!--SplashActivity-->
+    <string name="dialog_permission_splash_message">应用程序需要获取以下权限，拒绝后将无法使用软件\n①外部存储卡读写权限：app需要此权限做数据缓存\n②获取手机设备信息权限：app需要此权限以便搜集崩溃信息（此权限在申请过程中系统提示为“拨打电话和管理通话”，请放心授权，绝对不会偷偷搜集用户隐私信息！）</string>
+    <string name="dialog_permission_splash_denied">所需权限被拒绝，即将退出软件</string>
+    <string name="dialog_permission_splash_nerver_ask_message">应用程序无法获取所需权限，导致软件无法正常使用！您可通过系统设置界面打开软件的所需权限</string>
+
+    <!--LoginActivity-->
+    <string name="tv_login_title">登录账号</string>
+    <string name="tv_login_regist">注册新账号</string>
+    <string name="btn_login_confirm">登&#160;&#160;&#160;&#160;录</string>
+    <string name="pgb_login_dialog_content">登录中...</string>
+
+    <!--RegistActivity-->
+    <string name="tv_regist_title">注册新账号</string>
+    <string name="btn_regist_confirm">注&#160;&#160;&#160;&#160;册</string>
+    <string name="pgb_regist_dialog_content">注册中...</string>
+    <string name="hint_regist_success">注册成功</string>
+
+    <!--MainActivity-->
+    <string name="label_main_tab01">会话</string>
+    <string name="label_main_tab02">通讯录</string>
+    <string name="label_main_tab03">拨号</string>
+    <string name="tv_main_actionbar_tab01">会话列表</string>
+    <string name="tv_main_actionbar_tab02">通讯录</string>
+    <string name="tv_main_actionbar_tab03">拨号器</string>
+    <string name="tv_main_menu_profile">我的资料</string>
+    <string name="tv_main_menu_adduser">添加好友</string>
+    <string name="tv_main_menu_setting">设置</string>
+
+    <!--ContactFragment-->
+    <string name="tv_pull_down_reset">下拉可同步系统通讯录</string>
+    <string name="tv_pull_down_pulling">松开后开始同步系统通讯录</string>
+    <string name="tv_pull_down_released">正在同步系统通讯录</string>
+    <string name="tv_pull_down_success">同步完成</string>
+    <string name="tv_pull_down_fail">同步完成</string>
+    <string name="dialog_permission_contact_message">应用程序需要获取手机通讯录联系人的权限，否则无法继续同步本机通讯录</string>
+    <string name="tv_foot_contact_num">%%1位联系人</string>
+    <string name="tv_friend_notify_title">新的好友通知</string>
+    <string name="tv_friend_notify_unread">%%1条未处理通知</string>
+    <string name="tv_friend_notify_nope">当前没有新通知</string>
+
+    <!--ContactDetailFragment-->
+    <string name="tv_contact_detail_head_hint">点击头像可以设置备注头像</string>
+    <string name="btn_contact_detail_sys_call">系统电话</string>
+    <string name="btn_contact_detail_voice_call">语音通话</string>
+    <string name="btn_contact_detail_send_msg">发起聊天</string>
+    <string name="btn_contact_detail_video_call">视频通话</string>
+    <string name="tv_contact_detail_non_friend_hint">尚未添加该联系人为好友，只可拨打系统电话</string>
+    <string name="dialog_contact_detail_first_use_hint">如果未添加对方为好友，则无法给对方发送消息以及拨打语音通话或视频通话（对方如果未注册，可邀请对方注册后再添加好友）</string>
+    <string name="dialog_permission_call_phone_message">应用程序需要获取拨打系统电话的权限，否则无法继续呼叫该号码</string>
+    <string name="dialog_permission_call_phone_nerver_ask_message">应用程序无法获取拨打系统电话的权限，您可通过系统设置界面打开软件的电话权限。</string>
+    <string name="dialog_update_nameapp_title">修改备注名</string>
+    <string name="warning_dialog_update_nameapp_can_not_empty">备注名不能为空</string>
+
+    <!--UserProfileActivity-->
+    <string name="tv_user_profile_title">我的资料</string>
+    <string name="tv_user_profile_label_phone">手机号</string>
+    <string name="tv_user_profile_qrcode_desc">扫描二维码可添加好友</string>
+
+    <!--SettingActivity-->
+    <string name="tv_setting_title">设置</string>
+    <string name="tv_setting_dial_label">拨号器设置</string>
+    <string name="tv_setting_dial_feedback">拨号器触摸反馈</string>
+    <string name="tv_setting_msg_label">消息设置</string>
+    <string name="tv_setting_msg_notice">新消息提醒</string>
+    <string name="tv_setting_msg_notice_voice">新消息铃声提醒</string>
+    <string name="tv_setting_msg_notice_vibrate">新消息震动提醒</string>
+    <string name="tv_setting_msg_voice_handfree">用扬声器播放语音消息</string>
+    <string name="tv_setting_chat_label">聊天设置</string>
+    <string name="tv_setting_chat_text_input_first">聊天界面优先展示文字输入模式</string>
+    <string name="btn_setting_logout">退出当前登录账号</string>
+    <string name="dialog_setting_logout_confirm_title">退出登录提醒</string>
+    <string name="dialog_setting_logout_confirm_message">您确定要退出当前登录的账号？</string>
+    <string name="dialog_setting_logout_message">正在退出...</string>
+    <string name="tv_setting_check_version">检查更新</string>
+    <string name="toast_version_is_lastest">当前版本已是最新</string>
+    <string name="dialog_version_download">现在更新</string>
+    <string name="dialog_version_cancel">以后再说</string>
+
+    <!--DialPad-->
+    <string name="digist_0">0</string>
+    <string name="digist_1">1</string>
+    <string name="digist_2">2</string>
+    <string name="digist_3">3</string>
+    <string name="digist_4">4</string>
+    <string name="digist_5">5</string>
+    <string name="digist_6">6</string>
+    <string name="digist_7">7</string>
+    <string name="digist_8">8</string>
+    <string name="digist_9">9</string>
+    <string name="digist_pound">#</string>
+    <string name="digist_star">*</string>
+    <string name="digist_plus">+</string>
+
+    <!--DialFragment-->
+    <string name="tv_dial_search_add_contact_label01">添加号码&#160;</string>
+    <string name="tv_dial_search_add_contact_label02">&#160;到通讯录中</string>
+
+    <!--AddContactActivity-->
+    <string name="tv_add_contact_title">添加通讯录</string>
+    <string name="tv_add_contact_desc">您将添加号码&#160;%%1&#160;到通讯录中</string>
+    <string name="tv_add_contact_warning">您已添加过号码&#160;%%1&#160;，无需重复添加！</string>
+    <string name="tv_add_contact_head_desc">点此可设置备注头像</string>
+    <string name="ed_add_contact_hint">在此可设置备注姓名</string>
+    <string name="btn_add_contact_save">保&#160;&#160;&#160;&#160;存</string>
+
+    <!--AddFriendActivity-->
+    <string name="tv_add_friend_title">添加好友</string>
+    <string name="ed_add_friend_hint">请输入对方手机号</string>
+    <string name="btn_add_friend_confirm">发送请求</string>
+
+    <!--NewFriendNotifyActivity-->
+    <string name="tv_new_friend_notify_title">新的好友通知</string>
+    <string name="tv_new_friend_notify_clear">清空通知</string>
+    <string name="tv_new_friend_notify_listitem_desc01">%%1&#160;申请添加您为好友</string>
+    <string name="tv_new_friend_notify_listitem_desc02">您申请添加&#160;%%1&#160;为好友</string>
+    <string name="tv_warning_friend_notify_empty">当前没有收到新的好友通知</string>
+    <string name="dialog_new_friend_notify_clear_title">清空提醒</string>
+    <string name="dialog_new_friend_notify_clear_message">您确定要清空所有通知历史记录吗？</string>
+
+    <!--ConversationFragment-->
+    <string name="tv_conversation_empty">当前暂无会话记录</string>
+    <string name="tv_conversation_listitem_unread_ex">%%1条未读消息</string>
+    <string name="msg_type_desc_image">[图片消息]</string>
+    <string name="msg_type_desc_voice">[语音消息]</string>
+    <string name="msg_type_desc_video">[视频消息]</string>
+    <string name="msg_type_desc_location">[位置消息]</string>
+    <string name="msg_type_desc_file">[文件消息]</string>
+    <string name="dialog_del_conversation_title">删除提醒</string>
+    <string name="dialog_del_conversation_message">您确定要删除该条会话吗？\n(删除后会清空该会话的聊天记录！)</string>
+    <string name="notification_message">您有新的消息，点击该通知查看详情</string>
+
+    <!--HxChatActivity-->
+    <string name="toast_text_be_copyed">文本已复制</string>
+    <string name="tv_chat_listitem_voice_length_Ex">%%1秒</string>
+    <string name="tv_chat_listitem_voice_unlisten">未听</string>
+    <string name="tv_chat_listitem_video_duration_Ex">%%1秒</string>
+    <string name="ptr_chat_reset">下拉加载历史消息</string>
+    <string name="ptr_chat_pulling">松开后加载历史消息</string>
+    <string name="ptr_chat_release">正在加载历史消息...</string>
+    <string name="ptr_chat_success">加载成功</string>
+    <string name="ptr_chat_fail">没有更多聊天历史</string>
+    <string name="btn_chat_send">发送</string>
+    <string name="dialog_permission_record_audio_message">应用程序需要录音权限，否则无法正常发送语音消息/拨打语音电话</string>
+    <string name="dialog_permission_record_audio_nerver_ask_message">应用程序无法获取录音的权限，您可通过系统设置界面打开软件的录音权限。</string>
+    <string name="tv_dialog_chat_plus_label_photo">照片/图片</string>
+    <string name="tv_dialog_chat_plus_label_video">短视频</string>
+    <string name="tv_dialog_chat_plus_label_voice_call">语音通话</string>
+    <string name="tv_dialog_chat_plus_label_video_call">视频通话</string>
+    <string name="dialog_chat_pgb_video">正在处理短视频数据</string>
+
+    <!--HxImageDetailActivity-->
+    <string name="dialog_image_detail_download_bitmap_message">正在保存图片</string>
+    <string name="toast_image_detail_download_bitmal_success">图片保存成功：%%1</string>
+    <string name="toast_image_detail_download_bitmal_fail">图片保存失败</string>
+
+    <!--HxShortVideoPlayActivity-->
+    <string name="error_shortvideo_play">数据异常！无法播放视频！</string>
+    <string name="error_shortvideo_download">无法下载视频</string>
+
+    <!--HxVoiceCallActivity-->
+    <string name="tv_voice_call_label">实时语音通话</string>
+    <string name="call_state_connecting">正在连接对方...</string>
+    <string name="call_state_connected_comingcall">对方来电，等待您接听...</string>
+    <string name="call_state_connected_outgoingcall">等待对方接听...</string>
+    <string name="call_state_answering_comingcall">已接听，正在建立连接...</string>
+    <string name="call_state_answering_outgoingcall">对方已接听，正在建立连接...</string>
+    <string name="call_state_accpet">正在通话中...</string>
+    <string name="call_state_be_rejected">对方拒绝接听</string>
+    <string name="call_state_no_response">无人接听</string>
+    <string name="call_state_busy">对方正在通话中</string>
+    <string name="call_state_offline">对方不在线</string>
+    <string name="call_state_endcall">通话结束</string>
+    <string name="call_state_unknow_error">无法发起实时通话</string>
+    <string name="call_state_cannot_answer">无法接听实时通话</string>
+    <string name="call_state_network_unstable">当前网络状况不好</string>
+    <string name="dialog_permission_voice_call_message">应用程序需要录音权限，否则无法正常发起实时语音通话</string>
+    <string name="dialog_permission_voice_call_nerver_ask_message">应用程序无法获取录音的权限，导致无法使用实时通话，您可通过系统设置界面打开软件的录音权限。</string>
+    <string name="warning_permission_voice_call_denied">无法获取应用的录音权限，导致无法使用实时通话</string>
+    <string name="chrm_call_ex">通话时长 %s</string>
+    <string name="call_record_default">实时通话</string>
+    <string name="call_record_outgoing_cancel">已取消通话</string>
+    <string name="call_record_outgoing_berejected">对方拒绝接听</string>
+    <string name="call_record_outgoing_busy">对方正在通话中</string>
+    <string name="call_record_outgoing_no_response">对方未接听</string>
+    <string name="call_record_outgoing_offline">对方不在线</string>
+    <string name="call_record_incoming_donothing">未接听对方通话</string>
+    <string name="call_record_incoming_rejected">拒绝接听对方通话</string>
+
+    <!--HxVideoCallActivity-->
+    <string name="tv_video_call_label">实时视频通话</string>
+    <string name="dialog_permission_video_call_message">应用程序需要录音、相机权限，否则无法正常发起实时视频通话</string>
+    <string name="dialog_permission_video_call_nerver_ask_message">应用程序无法获取录音或相机的权限，导致无法使用实时视频通话，您可通过系统设置界面打开软件的录音或相机权限。</string>
+    <string name="warning_permission_video_call_denied">无法获取应用的录音或相机权限，导致无法使用实时视频通话</string>
+</resources>

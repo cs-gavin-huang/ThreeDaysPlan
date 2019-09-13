@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lwk.familycontact.widget.ResizeLayout
+    android:id="@+id/rel_hx_chat"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_E0E0E0"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".project.chat.view.HxChatActivity">
+
+    <com.lib.base.widget.CommonActionBar
+        android:id="@+id/cab_hx_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"/>
+
+    <com.lib.ptrview.CommonPtrLayout
+        android:id="@+id/prt_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hcc_hx_chat"
+        android:layout_below="@+id/cab_hx_chat"
+        app:ptr_bg_refresh="@color/gray_ADADAD"
+        app:ptr_enable_loadmore="false"
+        app:ptr_enable_refresh="true">
+
+        <com.lib.ptrview.CommonPtrDefView
+            android:id="@+id/common_ptrview_refresh_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ptr_def_view_icon_status_fail="@drawable/icon_pull_status_fail_dark"
+            app:ptr_def_view_icon_status_success="@drawable/icon_pull_status_success_dark"
+            app:ptr_def_view_label_pulldown_fail="@string/ptr_chat_fail"
+            app:ptr_def_view_label_pulldown_pulling="@string/ptr_chat_pulling"
+            app:ptr_def_view_label_pulldown_released="@string/ptr_chat_release"
+            app:ptr_def_view_label_pulldown_reset="@string/ptr_chat_reset"
+            app:ptr_def_view_label_pulldown_success="@string/ptr_chat_success"
+            app:ptr_def_view_tv_color="@color/colorPrimaryDark"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/common_ptrview_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_E0E0E0"/>
+
+    </com.lib.ptrview.CommonPtrLayout>
+
+    <com.lwk.familycontact.widget.HxChatController
+        android:id="@+id/hcc_hx_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</com.lwk.familycontact.widget.ResizeLayout>

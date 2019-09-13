@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="IMRecordButton">
+        <attr name="normal_text" format="string"/>
+        <attr name="recording_text" format="string"/>
+        <attr name="cancel_text" format="string"/>
+        <attr name="backgrount_resId_normal" format="reference"/>
+        <attr name="backgrount_resId_pressed" format="reference"/>
+    </declare-styleable>
+</resources>

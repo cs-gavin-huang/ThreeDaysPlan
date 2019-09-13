@@ -1,0 +1,53 @@
+<resources>
+    <!--DialPadView-->
+    <dimen name="btn_dial_fab_size">60dp</dimen>
+    <dimen name="shadow_dial_height">10dp</dimen>
+    <dimen name="rl_dial_input_height">50dp</dimen>
+    <dimen name="btn_dial_input_width">55dp</dimen>
+    <dimen name="btn_dial_input_textsize">28sp</dimen>
+    <dimen name="ed_dial_input_textsize">32sp</dimen>
+    <dimen name="ed_dial_input_min_textsize">20sp</dimen>
+    <dimen name="btn_dial_digist_textsize">35sp</dimen>
+
+    <dimen name="height_setting">48dp</dimen>
+    <dimen name="width_setting_toggle">72dp</dimen>
+    <dimen name="height_setting_toggle">36dp</dimen>
+    <dimen name="radius_setting_toggle">18dp</dimen>
+    <dimen name="space_setting_toggle">14dp</dimen>
+
+    <dimen name="radius_shadow_rect">4dp</dimen>
+
+    <dimen name="height_conversation_listitem">85dp</dimen>
+
+    <!--HxChatAdapter-->
+    <dimen name="img_chat_listitem_head_size">40dp</dimen>
+    <dimen name="tv_chat_listitem_text_min_height">40dp</dimen>
+    <dimen name="tv_chat_listitem_text_max_width">240dp</dimen>
+    <dimen name="img_chat_listitem_image_content_radius">9dp</dimen>
+    <dimen name="img_chat_listitem_image_content_min_size">80dp</dimen>
+    <dimen name="img_chat_listitem_image_content_padding_top">6dp</dimen>
+    <dimen name="img_chat_listitem_image_content_padding_bottom">6dp</dimen>
+    <dimen name="img_chat_listitem_image_content_padding_left">7dp</dimen>
+    <dimen name="img_chat_listitem_image_content_padding_right">7dp</dimen>
+    <dimen name="fl_chat_listitem_voice_content_height">50dp</dimen>
+    <dimen name="fl_chat_listitem_voice_content_min_width">85dp</dimen>
+    <dimen name="fl_chat_listitem_voice_content_max_width">145dp</dimen>
+    <dimen name="img_chat_listitem_voice_content_size">20dp</dimen>
+    <dimen name="img_chat_listitem_video_content_width">120dp</dimen>
+    <dimen name="img_chat_listitem_video_content_height">150dp</dimen>
+    <dimen name="btn_chat_listitem_video_content_size">85dp</dimen>
+    <dimen name="img_chat_listitem_video_content_padding_top">6dp</dimen>
+    <dimen name="img_chat_listitem_video_content_padding_bottom">6dp</dimen>
+    <dimen name="img_chat_listitem_video_content_padding_left">7dp</dimen>
+    <dimen name="img_chat_listitem_video_content_padding_right">7dp</dimen>
+    <dimen name="radius_chat_record_button">5dp</dimen>
+    <dimen name="radius_chat_btn_send">3dp</dimen>
+    <dimen name="img_chat_controller_switch_size">32dp</dimen>
+    <dimen name="btn_chat_record_button_height">40dp</dimen>
+    <dimen name="ed_chat_controller_text_input_max_height">150dp</dimen>
+    <dimen name="img_dialog_chat_plus_item_size">65dp</dimen>
+
+    <!--HxVoiceCallActivity-->
+    <dimen name="btn_voicecall_panel_size">85dp</dimen>
+    <dimen name="img_voicecall_assist_size">70dp</dimen>
+</resources>

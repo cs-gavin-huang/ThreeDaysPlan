@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/ll_dial_pad_input"
+        layout="@layout/layout_dial_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <include
+        android:id="@+id/ll_dial_pad_digists"
+        layout="@layout/layout_dial_digists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/space_dial_pad_middle"
+        android:layout_below="@+id/ll_dial_pad_input"/>
+
+    <View
+        android:id="@+id/space_dial_pad_middle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_small"
+        android:layout_above="@+id/fl_dial_pad_call"
+        android:background="@android:color/white"/>
+
+    <FrameLayout
+        android:id="@+id/fl_dial_pad_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/space_dial_pad_bottom"
+        android:background="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/btn_dial_pad_call"
+            android:layout_width="@dimen/btn_dial_fab_size"
+            android:layout_height="@dimen/btn_dial_fab_size"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_dial_call_selector"
+            android:src="@drawable/ic_dial_call"/>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/space_dial_pad_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spacing_small"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"/>
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shadow_dial_height"
+        android:background="@drawable/shadow"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/rl_dial_input_height"
+        android:background="@android:color/white">
+
+        <Button
+            android:id="@+id/btn_dial_input_plus"
+            android:layout_width="@dimen/btn_dial_input_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_dial_digist_selector"
+            android:gravity="center"
+            android:text="@string/digist_plus"
+            android:textColor="@color/tv_dial_digist_color_list"
+            android:textSize="@dimen/btn_dial_input_textsize"/>
+
+        <com.lwk.familycontact.widget.dial.DigitsEditText
+            android:id="@+id/ed_dial_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_dial_input_delete"
+            android:layout_toRightOf="@+id/btn_dial_input_plus"
+            android:background="@drawable/shape_rect_transparent"
+            android:cursorVisible="false"
+            android:fontFamily="sans-serif"
+            android:freezesText="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/ed_dial_input_textsize"
+            android:textStyle="normal"
+            app:resizing_text_min_size="@dimen/ed_dial_input_min_textsize"/>
+
+        <ImageButton
+            android:id="@+id/btn_dial_input_delete"
+            android:layout_width="@dimen/btn_dial_input_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_rect_transparent"
+            android:src="@drawable/bg_dial_delete_selector"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider"/>
+</LinearLayout>
